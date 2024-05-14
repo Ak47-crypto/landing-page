@@ -91,7 +91,7 @@ rounded-lg shadow-md m-2 mb-20">
 
 
         <div className="text-center">
-          <h1 className="text-2xl font-extrabold tracking-tight lg:text-5xl mb-6">Welcome back GenAI</h1>
+          <h1 className="text-4xl font-semibold tracking-tight lg:text-5xl mb-6"><span className="text-customColorText">Welcome</span> back GenAI</h1>
         </div>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
@@ -129,7 +129,7 @@ rounded-lg shadow-md m-2 mb-20">
             />
 
 
-            <Button type="submit" variant={'default'} disabled={isSubmitting}>
+            <Button type="submit" variant={'gradColor'} className="w-full" disabled={isSubmitting}>
               {
                 isSubmitting ? <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />Please wait

@@ -28,7 +28,7 @@ export default function Jokes() {
         <div className='flex justify-center mt-20'>
         <form onSubmit={(e)=>{e.preventDefault(); handleSubmit(e,{data:{prompt:input}})}}>
             <div className='flex w-full md:w-[330px] justify-center items-center gap-2'>
-        <Input  disabled={isLoading} placeholder='ask something...' type='text' className='w-full border rounded-3xl text-[#5dabc7] placeholder:text-[#5dabc7] focus:placeholder-transparent text-right ' value={input} onChange={handleInputChange} />
+        <Input  disabled={isLoading} placeholder='ask something...' type='text' className='w-full border rounded-3xl text-customColorText placeholder:text-customColorText/60 focus:placeholder-transparent text-right ' value={input} onChange={handleInputChange} />
         <button type='submit'className='inline rounded-full shadow-md border flex flex-row' >
             {isLoading?<Loader2 className="p-2 h-9 w-10 stroke-stone-500 animate-spin" onClick={stop}/>:
         <Send className="p-2 h-9 w-10 stroke-stone-500 " />}
@@ -49,7 +49,7 @@ export default function Jokes() {
                             <div className='flex gap-4 item-center w-full md:w-[780px] mb-5'>
                                 {msg.role=='user'?<User className='m-auto'/>:<Bot className='m-auto'/>}
                                 
-                            <Card className={`w-full ${msg.role=='user'?'bg-slate-300':''}`}>
+                            <Card className={`w-full ${msg.role=='user'?'bg-customColor2':''}`}>
                                 <CardHeader>
                                     <CardContent>
                                         <Markdown text={msg.content}/>

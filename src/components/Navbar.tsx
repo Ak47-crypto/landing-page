@@ -40,7 +40,7 @@ export default function Navbar() {
                 <li><Link href={'#'}>Testimonial</Link></li>
                 <li><Link href={'#'}>FAQ</Link></li>
             </ul>
-            <Button variant="destructive" className="hidden md:block">Get started &rarr;</Button>
+            <Button variant="gradColor" className="hidden md:block">Get started &rarr;</Button>
 
             {/* Mobile menu button */}
             <div className="md:hidden">
@@ -66,7 +66,7 @@ export default function Navbar() {
                             </MenubarItem>
                             <Separator/>
                             <MenubarItem>
-                            <Button variant="destructive" className="" size={"sm"}>Get started &rarr;</Button>
+                            <Button variant="gradColor" className="" size={"sm"}>Get started &rarr;</Button>
                             </MenubarItem>
                         </MenubarContent>
                     </MenubarMenu>

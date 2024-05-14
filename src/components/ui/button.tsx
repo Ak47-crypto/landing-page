@@ -20,7 +20,8 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         temp:" bg-customColor text-primary-foreground hover:bg-customColor/90",
         temp2:"bg-gradient-to-b border border-input bg-background from-neutral-50 to-neutral-100 shadow-md",
-        temp3:"bg-gradient-to-b from-orange-500 to-orange-600"
+        temp3:"bg-gradient-to-b from-orange-500 to-orange-600",
+        gradColor:"text-primary-foreground bg-gradient-to-b from-customColorButton/80 to-customColorButton"
       },
       size: {
         default: "h-10 px-4 py-2",

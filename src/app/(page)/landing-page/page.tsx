@@ -70,7 +70,7 @@ export default function LandingPage() {
               businesses in the marketing space with unparalleled
             </p>
             <div className='md:w-[163px] mt-16 md:mt-0 flex justify-center md:block'>
-              <Button variant="destructive" className=' w-32 '>Get started&rarr;</Button>
+              <Button variant="gradColor" className=' w-32 '>Get started&rarr;</Button>
             </div>
             </div>
           </div>
@@ -193,7 +193,7 @@ export default function LandingPage() {
                       height={65.33}
                       className="inline"
                     /></CardTitle>
-                    <CardTitle className='text-[23.8px]'>Quality spps</CardTitle>
+                    <CardTitle className='text-[23.8px]'>Quality apps</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p style={{color:"#374151"}}>Identify strengths, capitalize on weaknesses, and chart a course for unparalleled success.</p>
@@ -215,7 +215,7 @@ export default function LandingPage() {
                       height={65.33}
                       className="inline"
                     /></CardTitle>
-                    <CardTitle className='text-[23.8px]'>Quality spps</CardTitle>
+                    <CardTitle className='text-[23.8px]'>Quality apps</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p style={{color:"#374151"}}>Identify strengths, capitalize on weaknesses, and chart a course for unparalleled success.</p>
@@ -234,7 +234,7 @@ export default function LandingPage() {
                       height={65.33}
                       className="inline"
                     /></CardTitle>
-                    <CardTitle className='text-[23.8px]'>Quality spps</CardTitle>
+                    <CardTitle className='text-[23.8px]'>Quality apps</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p style={{color:"#374151"}}>Identify strengths, capitalize on weaknesses, and chart a course for unparalleled success.</p>
@@ -253,7 +253,7 @@ export default function LandingPage() {
                       height={65.33}
                       className="inline"
                     /></CardTitle>
-                    <CardTitle className='text-[23.8px]'>Quality spps</CardTitle>
+                    <CardTitle className='text-[23.8px]'>Quality apps</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p style={{color:"#374151"}}>Identify strengths, capitalize on weaknesses, and chart a course for unparalleled success.</p>
@@ -272,7 +272,7 @@ export default function LandingPage() {
                       height={65.33}
                       className="inline"
                     /></CardTitle>
-                    <CardTitle className='text-[23.8px]'>Quality spps</CardTitle>
+                    <CardTitle className='text-[23.8px]'>Quality apps</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p style={{color:"#374151"}}>Identify strengths, capitalize on weaknesses, and chart a course for unparalleled success.</p>
@@ -291,7 +291,7 @@ export default function LandingPage() {
                       height={65.33}
                       className="inline"
                     /></CardTitle>
-                    <CardTitle className='text-[23.8px]'>Quality spps</CardTitle>
+                    <CardTitle className='text-[23.8px]'>Quality apps</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p style={{color:"#374151"}}>Identify strengths, capitalize on weaknesses, and chart a course for unparalleled success.</p>
@@ -321,7 +321,7 @@ export default function LandingPage() {
                               height={65.33}
                               className="inline"
                             /></CardTitle>
-                            <CardTitle>Quality spps</CardTitle>
+                            <CardTitle>Quality apps</CardTitle>
                           </CardHeader>
                           <CardContent>
                             <p>Identify strengths, capitalize on weaknesses, and chart a course for unparalleled success.</p>
@@ -375,7 +375,7 @@ export default function LandingPage() {
 
                     <Button
                       className='min-w-full'
-                      variant={buttonState ? "temp" : "temp2"}
+                      variant={buttonState ? "gradColor" : "temp2"}
                     >Get now <ArrowRight /></Button>
 
                   </CardFooter>
@@ -418,7 +418,7 @@ export default function LandingPage() {
 
                     <Button
                       className='min-w-full'
-                      variant={buttonState2 ? "temp" : "temp2"}
+                      variant={buttonState2 ? "gradColor" : "temp2"}
                     >Get now <ArrowRight /></Button>
 
                   </CardFooter>
@@ -455,7 +455,7 @@ export default function LandingPage() {
 
                     <Button
                       className='min-w-full'
-                      variant={buttonState3 ? "temp" : "temp2"}
+                      variant={buttonState3 ? "gradColor" : "temp2"}
                     >Get now <ArrowRight /></Button>
 
                   </CardFooter>
@@ -564,7 +564,7 @@ export default function LandingPage() {
             <p className='text-center px-4  text-[17.9px] mb-[32px]'>Experience the synergy of your favorite tools working seamlessly<br />together, all powered by Horizon&apos;s cutting-edge AI analytics.</p>
             <div className='flex flex-col md:flex-row gap-3'>
               <Input className='w-full md:w-[374px] bg-customColor3' />
-              <Button variant={"destructive"}>Subscribe Now</Button>
+              <Button variant={"gradColor"}>Subscribe Now</Button>
             </div>
           </div>
 
@@ -574,7 +574,7 @@ export default function LandingPage() {
               <div className='w-full md:w-[1170px]'>
                 <div className='flex mt-[72px] items-center md:justify-between md:flex-row gap-5 flex-col mb-[64px]'>
                   <p className='text-2xl leading-normal  md:text-[40px] text-white text-center  md:text-start'>Get your AI apps built with<br /> blazing speed.</p>
-                  <Button variant={"destructive"} className='max-w-56 md:w-auto'>Subscribe Now</Button>
+                  <Button variant={"gradColor"} className='max-w-56 md:w-auto'>Subscribe Now</Button>
                 </div>
                 <Separator />
                 {/* second section */}
