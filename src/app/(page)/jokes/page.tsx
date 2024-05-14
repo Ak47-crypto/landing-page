@@ -45,7 +45,7 @@ export default function Jokes() {
                 <div className='flex flex-col-reverse px-4 md:p-10'>
                     {messages.map((msg,index)=>(
                         
-                        <div>
+                        <div key={index}>
                             <div className='flex gap-4 item-center w-full md:w-[780px] mb-5'>
                                 {msg.role=='user'?<User className='m-auto'/>:<Bot className='m-auto'/>}
                                 
