@@ -6,7 +6,7 @@ export async function POST(req: Request, res: Response) {
   console.log(reqBody)
   const ModelName: string = "gemini-pro";
   const prompt:string = reqBody.data.prompt;
-  const prompt2=('generate a joke and answer it in short! joketopic = ')+prompt
+  const prompt2=('answer it in short! ')+prompt
   const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY!);
   const model = genAI.getGenerativeModel({
     model: ModelName,
